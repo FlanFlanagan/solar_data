@@ -23,7 +23,7 @@
   </RunInfo>
 
   <Files>
-    <Input name="rawDataFile">dataSet1.csv</Input>
+    <Input name="rawDataFile">dataSet2.csv</Input>
     <Input name="synDataFile">writeSynDataOut_0.csv</Input>
   </Files>
 
