@@ -1,0 +1,13 @@
+<DataObjectMetadata name="synData">
+  <DataSet type="Static">
+    <dims>
+      <Value>Time</Value>
+    </dims>
+    <general>
+      <inputs>scaling</inputs>
+      <outputs>Value</outputs>
+      <sampleTag>RAVEN_sample_ID</sampleTag>
+    </general>
+  </DataSet>
+  
+</DataObjectMetadata>

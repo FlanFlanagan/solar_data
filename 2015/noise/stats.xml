@@ -1,0 +1,10 @@
+<DataObjectMetadata name="stats">
+  <DataSet type="Static">
+    <general>
+      <outputs>mean_Value,var_Value</outputs>
+      <pointwise_meta>mean_ste_Value,var_ste_Value</pointwise_meta>
+      <sampleTag>RAVEN_sample_ID</sampleTag>
+    </general>
+  </DataSet>
+  
+</DataObjectMetadata>
