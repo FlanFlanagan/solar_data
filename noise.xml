@@ -48,12 +48,13 @@
 
   <Models>
     <ROM name="ARMA" subType="ARMA">
+      <outTruncation domain='positive'>Value, Time</outTruncation>
       <Target>Value,Time</Target>
       <Features>scaling</Features>
       <pivotParameter>Time</pivotParameter>
-      <P>1</P>
-      <Q>1</Q>
-      <Fourier>1368000,2736000,4104000</Fourier>
+      <P>3</P>
+      <Q>3</Q>
+      <Fourier>17520,48</Fourier>
     </ROM>
     <PostProcessor name="stats" subType="BasicStatistics">
       <expectedValue prefix="mean">Value</expectedValue>
